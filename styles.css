@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 0, 173, 25%);
+}
+
+#title {
+    font-weight: lighter;
+    word-spacing: normal;
+    text-align: center;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 95%);
+    margin-top: 30px;
+    font-family: 'Vina Sans', cursive;
+    text-transform: uppercase;
+    word-spacing: 10px;
+}
+
+#description {
+    margin-top: 10px;
+    word-spacing: normal;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Mukta', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+fieldset {
+    margin: 20px auto;
+    max-width: 600px;
+    min-width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(0, 0, 195, 30%);
+}
+
+input::placeholder,
+input {
+    font-style: italic;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+label {
+    color: rgba(255, 255, 255, 95%);
+    font-size: 15px;
+    text-align: left;
+    display: block;
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+
+#name,
+#email,
+#number {
+    width: 100%;
+    margin-top: 5px;
+    border: 5px solid rgba(0, 0, 195, 30%);
+}
+
+#select {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#dropdown {
+    margin-top: 10px;
+    display: block;
+    border: 5px solid rgba(0, 0, 195, 30%);
+}
+
+#gendertype {
+    font-size: 15px;
+    text-align: left;
+    display: block;
+    margin: 15px 0;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 95%);
+}
+
+.fieldsecond {
+    margin: 60px auto 20px auto;
+    max-width: 600px;
+    min-width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(0, 0, 195, 30%);
+    overflow: hidden;
+}
+
+.fieldsecond::label {
+    text-transform: lowercase;
+}
+#educationtext{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 95%);
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+textarea {
+    display: block;
+    width: 20rem;
+    height: 10vh;
+    border: 5px solid rgba(0, 0, 195, 30%);
+}
+
+textarea::placeholder {
+    color: black;
+}
+
+button {
+    display: block;
+    margin: 40px auto 10px auto;
+    width: 50%;
+    padding: 5px;
+    border-radius: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color: rgba(19, 19, 146, 0.453);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+#submit{
+    color: white;
+}
+#submit:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1)
+}
